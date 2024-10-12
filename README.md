@@ -2,7 +2,6 @@ This repository contains resources and code for adapting an open-source pipeline
 
 
 ## 📚 What I id
-- Retrieve and transform training data for LLM fine-tuning. - Pre-processing training data for **supervised instruction tuning**.
 - Version control for data and model tracking. - Versioning datasets and models to manage tuning experiments.
 - Supervised tuning pipeline setup and deployment. - Configuring and executing a **supervised tuning pipeline**.
 - Responsible AI practices by outputting safety scores. - Deploying a tuned LLM and evaluating **safety scores** for responsible AI use.
@@ -13,8 +12,7 @@ This repository contains resources and code for adapting an open-source pipeline
 - **Google Cloud** (for cloud-based model training and deployment)
 
 ## 💻 Project Structure
-- `/data`: Dataset and pre-processing scripts.
-- `/models`: Trained and fine-tuned models.
+- `/models`: Load Data Trained and fine-tuned models.
 - `/pipeline`: Kubeflow pipeline configurations for LLMOps.
 - `/deployment`: Deployment scripts for the custom LLM.
 
